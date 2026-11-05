@@ -1,0 +1,5 @@
+timestamp,result,probability,length,sample
+2025-08-12T06:45:34Z,Phishing Email 🚨,0.8700,138,URGENT: Your bank account has been compromised. Click here immediately to verify your identity and avoid suspension: http://bad.link/login
+2025-08-12T06:51:26Z,Phishing Email 🚨,0.7800,138,URGENT: Your bank account has been compromised. Click here immediately to verify your identity and avoid suspension: http://bad.link/login
+2025-08-12T06:52:38Z,Phishing Email 🚨,0.7800,138,URGENT: Your bank account has been compromised. Click here immediately to verify your identity and avoid suspension: http://bad.link/login
+2025-08-12T06:56:00Z,Legitimate Email ✅,0.2200,680,"Hello psycho2563,   Thank you for your submission of Greenfield. Our team has reviewed your writeup, and we regret to inform you that we don't believe it is"

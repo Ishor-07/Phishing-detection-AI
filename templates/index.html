@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Phishing Email Detector</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <div class="header card">
+      <div class="brand">
+        <div class="logo">PD</div>
+        <div class="title">
+          <div class="name">Phishing Detector</div>
+          <div class="tag">Classifies email text as phishing or legitimate</div>
+        </div>
+      </div>
+      <button class="mode-toggle" id="modeToggle" aria-label="Toggle theme">
+        <span id="modeIcon">🌙</span>
+        <span id="modeText">Dark</span>
+      </button>
+    </div>
+
+    <div class="card">
+      <form method="post" class="form">
+        <label for="email">Email text</label>
+        <div class="helper">Paste or type email content to analyze</div>
+        <textarea id="email" name="email" placeholder="Paste email text here..." required>{{ email_text or '' }}</textarea>
+        <div class="toolbar">
+          <button type="submit" class="button primary">Analyze</button>
+          <button type="button" class="button" id="example-safe">Example Legit</button>
+          <button type="button" class="button danger" id="example-phish">Example Phish</button>
+          <a class="link" href="{{ url_for('history') }}">History</a>
+        </div>
+      </form>
+
+      {% if error %}
+      <div class="error">{{ error }}</div>
+      {% endif %}
+
+      {% if result %}
+      <div class="result">
+        <div class="result-header">
+          <div><strong>Result:</strong> {{ result }}</div>
+          {% if result.startswith('Legitimate') %}
+            <span class="badge ok">LEGIT</span>
+          {% else %}
+            <span class="badge warn">PHISH</span>
+          {% endif %}
+        </div>
+        <div class="result-body">
+          {% if proba is not none %}
+          <div class="prob-wrap">
+            <div class="prob-label">Phishing probability</div>
+            <div class="prob-bar">
+              <div class="prob-fill" style="width: {{ (proba * 100) | round(1) }}%"></div>
+            </div>
+            <div class="prob-val">{{ (proba * 100) | round(1) }}%</div>
+          </div>
+          {% endif %}
+
+          {% if suspicious_hits %}
+          <div class="chips">
+            <div class="chip-title">Suspicious terms detected</div>
+            {% for t in suspicious_hits %}
+              <span class="chip danger">{{ t }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+
+          {% if top_tokens %}
+          <div class="chips">
+            <div class="chip-title">Informative tokens in text</div>
+            {% for t in top_tokens %}
+              <span class="chip">{{ t }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="footer">© {{ 2025 }} Phishing Detector • Demo app</div>
+  </div>
+
+  <script>
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const root = document.documentElement;
+    const savedTheme = localStorage.getItem('theme');
+    const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+    root.setAttribute('data-theme', initialTheme);
+
+    const modeToggle = document.getElementById('modeToggle');
+    const modeIcon = document.getElementById('modeIcon');
+    const modeText = document.getElementById('modeText');
+
+    function applyTheme(theme) {
+      root.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+      if (theme === 'dark') { modeIcon.textContent = '🌙'; modeText.textContent = 'Dark'; }
+      else { modeIcon.textContent = '☀️'; modeText.textContent = 'Light'; }
+    }
+
+    applyTheme(initialTheme);
+
+    modeToggle.addEventListener('click', () => {
+      const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+    });
+
+    const safe = `Meeting reminder: Team standup at 10 AM tomorrow in conference room A. Please review the attached agenda.`;
+    const phish = `URGENT: Your bank account has been compromised. Click here immediately to verify your identity and avoid suspension: http://bad.link/login`;
+    const ta = document.getElementById('email');
+    document.getElementById('example-safe').onclick = () => { ta.value = safe; };
+    document.getElementById('example-phish').onclick = () => { ta.value = phish; };
+  </script>
+</body>
+</html>

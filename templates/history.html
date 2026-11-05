@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prediction History • Phishing Detector</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <div class="header card">
+      <div class="brand">
+        <div class="logo">PD</div>
+        <div class="title">
+          <div class="name">Prediction History</div>
+          <div class="tag">Recent analyses (latest first)</div>
+        </div>
+      </div>
+      <a class="mode-toggle" href="{{ url_for('index') }}">Back</a>
+    </div>
+
+    <div class="card">
+      {% if rows %}
+      <div class="table-wrap">
+        <table class="table">
+          <thead>
+            <tr><th>Time (UTC)</th><th>Result</th><th>Probability</th><th>Length</th><th>Sample</th></tr>
+          </thead>
+          <tbody>
+            {% for r in rows %}
+              <tr>
+                <td>{{ r.timestamp }}</td>
+                <td>{{ r.result }}</td>
+                <td>{{ r.probability }}</td>
+                <td>{{ r.length }}</td>
+                <td class="truncate" title="{{ r.sample }}">{{ r.sample }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      {% else %}
+      <div class="empty">No predictions yet.</div>
+      {% endif %}
+    </div>
+
+    <div class="footer">© {{ 2025 }} Phishing Detector • Demo app</div>
+  </div>
+
+  <script>
+    const savedTheme = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', initialTheme);
+  </script>
+</body>
+</html>

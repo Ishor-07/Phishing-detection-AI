@@ -1,0 +1,202 @@
+email_text,label
+"Dear valued customer, your account has been suspended. Click here to verify your identity immediately: http://suspicious-link.com/verify",1
+"Hello, I am a Nigerian prince and I need your help to transfer $10 million. Please provide your bank details.",1
+"URGENT: Your computer has been infected with viruses. Download our antivirus software now!",1
+"Congratulations! You've won $1000! Click here to claim your prize: http://fake-winner.com",1
+"Your PayPal account has been limited. Please verify your information by clicking this link.",1
+"Meeting reminder: Team standup at 10 AM tomorrow in conference room A.",0
+"Thank you for your recent purchase. Your order #12345 has been shipped and will arrive in 3-5 business days.",0
+"Hi John, here's the agenda for tomorrow's meeting. Please review and let me know if you have any questions.",0
+"Your monthly newsletter is ready. Check out the latest updates and industry insights.",0
+"Password reset request: If you didn't request this, please ignore this email.",0
+"URGENT: Your bank account has been compromised. Click here immediately to secure your funds.",1
+"Free iPhone 15! You've been selected for our exclusive giveaway. Enter your details now!",1
+"Your Netflix subscription has expired. Click here to renew and avoid service interruption.",1
+"Security alert: Unusual login detected from Russia. Click here to verify it's you.",1
+"Your package delivery is scheduled for tomorrow between 2-4 PM. Please ensure someone is home.",0
+"Welcome to our platform! Here's your account confirmation and next steps.",0
+"Your invoice #INV-2024-001 is ready. Please review and process payment by month end.",0
+"Team lunch this Friday at 12:30 PM. Please RSVP by Wednesday.",0
+"Your subscription will auto-renew on March 1st. Click here to modify or cancel.",0
+"New feature release: Check out the latest updates to our dashboard.",0
+"We noticed a problem with your tax refund. Submit your information here to avoid penalties.",1
+"Apple ID locked for security reasons. Confirm your account at http://apple-verify.support",1
+"Office 365: Your mailbox is almost full. Increase your storage by verifying your account.",1
+"DocuSign: You have received a document for signature. Review securely here: http://docusign-secure.io",1
+"Final warning: Your Amazon order will be cancelled. Update payment now.",1
+"Payroll update: New direct deposit form for all employees. Please download and complete by Friday.",0
+"Your order has been delivered. If you didn't receive it, contact support.",0
+"Agenda and slides for Monday's client presentation attached.",0
+"Q3 performance review schedule attached. Please select your preferred slot.",0
+"Holiday schedule announcement for the next quarter.",0
+"Bank of America: Your one-time password is 482913. Do not share this code with anyone.",0
+"Reminder: Benefits enrollment closes this Friday at 5 PM.",0
+"You missed a call: New voicemail from +1 (202) 555-0138. Listen now.",1
+"Dropbox: John shared 'Q4_Financials.xlsx' with you. View document here.",1
+"Crypto exchange alert: Withdrawals temporarily disabled. Verify identity to re-enable.",1
+"Microsoft account security: We blocked a sign-in attempt from an unknown device. Review activity.",1
+"Delivery attempt failed: Reschedule your FedEx package delivery using this link.",1
+"Internal: Draft of the updated work-from-home policy for review.",0
+"Calendar invite: Design review at 3 PM with the product team.",0
+"Meeting notes from today's engineering sync attached.",0
+"Thank you for your support ticket. Our team will respond within 24 hours.",0
+"New referral program: Earn rewards by inviting your colleagues.",0
+"Your purchase of 'Noise Cancelling Headphones' is confirmed. Receipt attached.",0
+"Immediate action required: Confirm your billing information to avoid service suspension.",1
+"Security verification needed: Upload your driver's license to continue using your account.",1
+"Final notice: Your domain is expiring. Renew now to avoid loss of services.",1
+"COVID-19 relief funds available for small businesses. Apply today.",1
+"Wire transfer requested by CEO. Process the payment to the vendor before EOD.",1
+"Please review the attached contract and send your comments by Thursday.",0
+"Team offsite survey: Choose your activity preferences.",0
+"GitHub: New login from Chrome on Windows. If this was you, you can ignore this email.",0
+"Your parcel with tracking number 1Z999AA10123456784 is out for delivery.",0
+"Unusual activity detected on your bank account. Verify recent transactions.",1
+"Your cloud storage is about to be deleted. Confirm to retain your files.",1
+"Important: Update your payroll details to receive your next salary.",1
+"Slack export ready: Download your workspace data.",0
+"QA report: All tests passed on build #784.",0
+"Re: Follow up on the product demo from last week.",0
+"You've been selected for a secret shopper program. Claim your reward now!",1
+"Norton Antivirus expired. Renew immediately to stay protected.",1
+"Payment failed for your Spotify subscription. Update your card to avoid interruption.",1
+"Annual compliance training reminder. Complete by the end of the month.",0
+"Ticket closed: Issue #5412 has been resolved.",0
+"SharePoint: A file has been shared with you. Access 'Salary_Adjustments.xlsx' here.",1
+"Action needed: Confirm your email address to continue using services.",1
+"Expense report approved. Reimbursement will be processed within 5 business days.",0
+"Welcome aboard! Your first-day checklist is attached.",0
+"Please sign the NDA document attached and return by tomorrow.",0
+"Your credit card statement is ready. View or download your statement.",0
+"Crypto giveaway: Send 0.1 BTC and receive 1 BTC back! Limited time only.",1
+"Security alert: Multiple password attempts detected. Reset your password immediately.",1
+"HR: Update your emergency contact information in the portal.",0
+"Zoom: Recording is ready for 'Weekly Standup'.",0
+"Amazon: Your refund has been processed. Expect the amount in 3-5 days.",0
+"Verify your identity to restore account access immediately.",1
+"We couldn't deliver your package today, reschedule your delivery here.",1
+"Company town hall recording is available for playback.",0
+"Finance reminder: Submit your Q4 expense receipts by Friday.",0
+"Action required: Confirm billing address to avoid service interruption.",1
+"Unusual sign-in detected from a new device. Was this you?",1
+"Team calendar updated with the new sprint schedule.",0
+"Your warranty registration is complete. Keep this email for records.",0
+"Your email storage is over quota. Upgrade now to prevent loss of messages.",1
+"Crypto airdrop: Claim 500 tokens before midnight!",1
+"Draft contract version 2 attached for comments.",0
+"Reminder: Customer success check-in tomorrow at 2 PM.",0
+"Security notice: Validate your payment details to keep using Premium.",1
+"Your tax document is ready for download in the portal.",0
+"Final warning: Account will be suspended in 24 hours unless verified.",1
+"Join our webinar: Best practices for secure remote work.",0
+"Mailbox sync error, re-enter your password to continue.",1
+"Your session was signed out successfully from Chrome on Mac.",0
+"Free gift card for the first 100 responders!",1
+"Internal audit checklist attached—please review.",0
+"PayPal: You received a payment of $125.00.",0
+"Your Amazon package has shipped. Track your order.",0
+"Bank alert: Transaction declined. Verify details to complete purchase.",1
+"Helpdesk ticket #5842 has been updated.",0
+"Limited-time offer: Double your rewards points today only.",1
+"Re: Minutes from the vendor onboarding call.",0
+"OneDrive: Your shared folder link has been updated.",0
+"Immediate action: Reconfirm your security questions.",1
+"Vacation request approved: 3 days starting next Monday.",0
+"System update: Maintenance scheduled Saturday 1–3 AM UTC.",0
+"Security warning: Multiple failed login attempts detected.",1
+"Please update your direct deposit information.",1
+"Marketing assets for the campaign are attached.",0
+"Your subscription was renewed successfully for another year.",0
+"Confirm your email to unlock exclusive content.",1
+"DocuSign: Final reminder to sign your document.",1
+"Jira: Issue PROJ-219 moved to In Review.",0
+"Onboarding: Complete your profile to access the portal.",0
+"Win a MacBook Pro—enter the survey now!",1
+"Re: Feedback requested on product roadmap.",0
+"Password expires in 2 days—reset now to keep access.",1
+"Calendar invite: Architecture review 4 PM.",0
+"Your e-ticket for Flight AB123 is attached.",0
+"Verify your bank details to receive your wire transfer.",1
+"Urgent final notice: Confirm account ownership.",1
+"All-hands slides are available in the shared drive.",0
+"Slack: You were mentioned in #engineering.",0
+"Apple support: Your device backup failed. Fix now.",1
+"Payroll processed—payslip available in HR portal.",0
+"Refund processed for order #784512.",0
+"Your identity could not be verified. Submit documents to continue.",1
+"Your trial ends soon—add a payment method to avoid losing data.",1
+"Thanks for attending! Here are the webinar resources.",0
+"Security check: Update two-factor authentication settings.",1
+"Emergency: Suspicious activity found. Lock your account now.",1
+"Project kickoff notes attached.",0
+"Welcome to the beta program. Access instructions inside.",0
+"Payout available: Claim your affiliate earnings.",1
+"Google: New sign-in from Windows in Lagos.",1
+"Daily build passed all tests.",0
+"Reminder: Submit timesheet by 6 PM.",0
+"Payment overdue: Settle your invoice to avoid penalties.",1
+"Press release draft for review.",0
+"Security code: 938221. Do not share with anyone.",0
+"Your VPN account needs verification.",1
+"We updated our privacy policy.",0
+"Claim your lottery winnings now!",1
+"Your return has been received and is being processed.",0
+"Renew domain now to prevent service disruption.",1
+"Shipping label created for your order.",0
+"Confirm email to receive your discount coupon.",1
+"The design spec has been approved.",0
+"Update your card information to continue streaming.",1
+"Sprint retrospective notes attached.",0
+"Your profile was viewed 17 times this week.",0
+"Important: Verify SSN to continue payroll.",1
+"Security alert: New API token created.",1
+"Board meeting agenda attached.",0
+"We miss you—reactivate your account with 30% off.",1
+"Thank you for your donation.",0
+"Package delivered: Left at front door.",0
+"Re: Follow-up items from security review.",0
+"Immediate confirmation required to unlock account.",1
+"New voicemail from +1 (415) 555-0199.",0
+"Exclusive offer: Get your tax refunded instantly.",1
+"SLA report for July attached.",0
+"Please validate your identity to prevent closure.",1
+"Your password was changed successfully.",0
+"Quick survey: Tell us about your experience.",0
+"Update billing to avoid cancellation within 12 hours.",1
+"Your credit limit has increased.",0
+"Resubscribe now to keep your playlists.",1
+"Weekly digest: Top posts from your network.",0
+"We have detected irregular banking activity.",1
+"Access your secure document here.",1
+"Your conference registration is confirmed.",0
+"GitLab: Pipeline failed for branch feature/login.",0
+"Recover account: Provide PIN to continue.",1
+"Notice: Account flagged for suspicious transactions.",1
+"Team offsite details and checklist.",0
+"Welcome gift: $10 credit applied to your account.",0
+"Your social account will be deleted—confirm to keep it.",1
+"Invoice paid—receipt attached.",0
+"Verify delivery address to receive your parcel.",1
+"Join our exclusive investors group now.",1
+"NDA fully executed—copy attached.",0
+"Monthly performance dashboard link inside.",0
+"Unrecognized device connected to your account.",1
+"Upgrade your mailbox to 100 GB now.",1
+"Travel itinerary for Berlin next week.",0
+"Your seat is confirmed for Workshop A.",0
+"Suspicious login blocked. Reset password to continue.",1
+"Security audit log exported successfully.",0
+"Redeem your bonus by confirming your identity.",1
+"Thanks for your application—next steps inside.",0
+"Photo storage will be cleared unless you upgrade.",1
+"We added a new sign-in method to your profile.",0
+"Bank transfer on hold—verify recipient details.",1
+"Your class enrollment is complete.",0
+"Your Apple subscription failed—update billing now.",1
+"Release notes for version 2.4.0.",0
+"Multi-factor required: Approve the login request.",1
+"Team: Code freeze starts tomorrow.",0
+"Confirm your payout account to receive funds.",1
+"Upcoming outage notice for data center maintenance.",0
+"Exclusive access granted—click to activate.",1
+"Performance bonus letter attached.",0
